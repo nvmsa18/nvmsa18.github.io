@@ -50,7 +50,8 @@ div.wrapper{display:block; width:100%; margin:0; padding:0; text-align:left;}
 
 nav ul{margin:0; padding:0; list-style:none;}
 
-h1, h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; color:#8B2525; font-weight:normal; font-style:italic; line-height:normal;}
+h1{margin:0; padding:0; font-size:30px; color:#000000; font-weight:normal; font-style:italic; line-height:normal;}
+h2, h3, h4, h5, h6{margin:0; padding:0; font-size:22px; color:#8B2525; font-weight:normal; font-style:italic; line-height:normal;}
 
 address{font-style:normal;}
 
@@ -95,7 +96,7 @@ input, textarea, select{font-size:12px; font-family:Georgia,"Times New Roman",Ti
 #header nav li a{color:#EEEEEE; font-size:14px; background-color:#0050A0;}
 #header nav li a:hover{color:#FF9900; background-color:#0050A0;}
 #header nav ul ul{display: none; margin: 0px; padding: 0px; line-height:50px; position: absolute}
-#header nav ul li:hover ul{display: block; width:220px; line-height:25px; background-color:#003570;}
+#header nav ul li:hover ul{display: block; width:235px; line-height:25px; background-color:#003570;}
 #header nav ul li ul li a{background-color:#003570;}
 #header nav ul li ul li a:hover{background-color:#003570;}
 
