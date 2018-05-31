@@ -17,8 +17,8 @@
 
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Call for Contributions</a>
+        <li class="top"><a href="index.html">Home</a></li>
+        <li class="top"><a href="#">Call for Contributions</a>
           <ul>
             <li><a href="pages/cfp.html">Call for Regular Papers</a><br></li>
             <li><a href="pages/cfpp.html">Call for Poster Papers</a><br></li>
@@ -26,17 +26,24 @@
             <li><a href="pages/cfw.html">Call for Workshops</a><br></li>
           </ul>
         </li>
-        <li><a href="pages/submissions.html">Submissions</a></li>
-        <li><a href="#">Programs</a></li>
-        <li><a href="pages/registration.html">Registration</a></li>
-        <li><a href="#">Organizers</a>
+        <li class="top"><a href="pages/submissions.html">Submissions</a></li>
+        <li class="top"><a href="#">Programs</a></li>
+        <!-- li><a href="pages/registration.html">Registration</a></li -->
+        <li class="top"><a href="#">Attending</a>
+          <ul>
+            <li><a href="pages/registration.html">Online Registration</a><br></li>
+            <li><a href="pages/venue.html">Conference Venue</a><br></li>
+            <li><a href="pages/visa.html">Visa Information</a><br></li>
+            <li><a href="pages/hotel.html">Hotel Information</a><br></li> 
+          </ul>
+        </li>
+        <li class="last"><a href="#">Organizers</a>
           <ul>
             <li><a href="pages/organizers.html#oc">Organizing Committee</a><br></li>
             <li><a href="pages/organizers.html#sc">Steering Committee</a><br></li>
             <li><a href="pages/organizers.html#pcm">Program Committee</a><br></li> 
           </ul>
         </li>
-        <li class="last"><a href="pages/venue.html">Venue</a></li>
      </ul>
     </nav>
 
@@ -47,7 +54,9 @@
   <div id="container" class="clear">
     <!-- Slider -->
     <section id="slider" class="clear">
-      <figure><img src="images/index/hakodate2.jpg" style="width:630px;height:300px;" alt="">
+      <table border="0" cellspacing="0" cellpadding="0"><tr>
+      <td>
+      <figure>
         <figcaption>
           <h2 style="color:#EEEEEE">Welcome!</h2>
 		      <p>The 7th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA) 
@@ -58,6 +67,56 @@
           (<a href="http://rtcsa2018.ht.sfc.keio.ac.jp/">RTCSA</a>). </p>
         </figcaption>
       </figure>
+      </td>
+      <td>
+	    <div class="slideshow" data-transition="fade">
+		    <input type="radio" name="ss2" id="ss2-item-1" class="slideshow--bullet" checked="checked" />
+		    <div class="slideshow--item">
+           <img src="images/index/hakodate2.jpg" style="width:630px;height:300px;" alt="">
+ 			     <label for="ss2-item-5" class="slideshow--nav slideshow--nav-previous"></label>
+			     <label for="ss2-item-2" class="slideshow--nav slideshow--nav-next"></label>
+		    </div>
+	      <input type="radio" name="ss2" id="ss2-item-2" class="slideshow--bullet" />
+		    <div class="slideshow--item">
+           <img src="images/index/goryokaku.jpg" style="width:630px;height:300px;" alt="">
+ 			     <label for="ss2-item-1" class="slideshow--nav slideshow--nav-previous"></label>
+			     <label for="ss2-item-3" class="slideshow--nav slideshow--nav-next"></label>
+		    </div>
+		    <input type="radio" name="ss2" id="ss2-item-3" class="slideshow--bullet" />
+		    <div class="slideshow--item">
+          <img src="images/index/hachimanzaka.jpg" style="width:630px;height:300px;" alt="">
+ 			    <label for="ss2-item-2" class="slideshow--nav slideshow--nav-previous"></label>
+			    <label for="ss2-item-4" class="slideshow--nav slideshow--nav-next"></label>
+		    </div>
+		    <input type="radio" name="ss2" id="ss2-item-4" class="slideshow--bullet" />
+		    <div class="slideshow--item">
+          <img src="images/index/kanemori.jpg" style="width:630px;height:300px;" alt="">
+  		    <label for="ss2-item-3" class="slideshow--nav slideshow--nav-previous"></label>
+			    <label for="ss2-item-5" class="slideshow--nav slideshow--nav-next"></label>
+		    </div>
+		    <input type="radio" name="ss2" id="ss2-item-5" class="slideshow--bullet" />
+		    <div class="slideshow--item">
+          <img src="images/index/night.jpg" style="width:630px;height:300px;" alt="">
+  		    <label for="ss2-item-4" class="slideshow--nav slideshow--nav-previous"></label>
+			    <label for="ss2-item-1" class="slideshow--nav slideshow--nav-next"></label>
+		    </div>
+
+      </div>
+      </td>
+      </tr></table> 
+      <!-- figure>
+        <img src="images/index/hakodate2.jpg" style="width:630px;height:300px;" alt=""> 
+        <figcaption>
+          <h2 style="color:#EEEEEE">Welcome!</h2>
+		      <p>The 7th IEEE Non-Volatile Memory Systems and Applications Symposium (NVMSA) 
+          is a premier conference for new ideas and research results in the area of non-volatile 
+          memory systems and emerging memory technologies. This year, NVMSA will be held at 
+          the Hakodate Arena in Japan during August 28-31, 2018, in conjunction with the 24th IEEE 
+          International Conference on Embedded and Real-Time Computing Systems and Applications 
+          (<a href="http://rtcsa2018.ht.sfc.keio.ac.jp/">RTCSA</a>). </p>
+        </figcaption>
+      </figure -->
+      
     </section>
     <!-- main content -->
     <div id="homepage">
